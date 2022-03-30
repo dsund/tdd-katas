@@ -1,0 +1,14 @@
+{
+  "name": "tdd-kata-seed-karma",
+  "version": "1.0.0",
+  "description": "Karma TDD Kata seed project",
+  "scripts": {
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "jasmine-core": "^4.0.1",
+    "karma": "^6.3.17",
+    "karma-jasmine": "^4.0.2",
+    "karma-chrome-launcher": "^3.1.1"
+  }
+}
