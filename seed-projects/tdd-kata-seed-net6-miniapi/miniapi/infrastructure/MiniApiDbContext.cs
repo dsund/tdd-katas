@@ -6,7 +6,7 @@ public class MiniApiDbContext : DbContext
 {
     private readonly string schema;
     public MiniApiDbContext(DbContextOptions<MiniApiDbContext> options)
-        : this(options, "identity")
+        : this(options, "minidb")
     {
     }
 
